@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "API_BACKEND=https://api.bookish.tech micro ./node_modules/bookish/client_server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bookish": "^1.0.1"
+    "bookish": "1.0.3"
   }
 }
